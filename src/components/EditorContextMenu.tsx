@@ -109,7 +109,6 @@ export default function EditorContextMenu({ editor, show, position, onClose }: E
   const menuStyle = {
     top: `${Math.min(position.y, window.innerHeight - 300)}px`,
     left: `${Math.min(position.x, window.innerWidth - 250)}px`,
-    position: 'fixed',
     zIndex: 50
   };
 
