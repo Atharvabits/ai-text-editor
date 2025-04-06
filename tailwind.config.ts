@@ -27,7 +27,59 @@ const config: Config = {
       typography: {
         DEFAULT: {
           css: {
-            maxWidth: '100%',
+            maxWidth: 'none',
+            color: '#f3f4f6',
+            a: {
+              color: '#8b5cf6',
+              '&:hover': {
+                color: '#7c3aed',
+              },
+            },
+            p: {
+              color: '#f3f4f6',
+            },
+            h1: {
+              color: '#f3f4f6',
+            },
+            h2: {
+              color: '#f3f4f6',
+            },
+            h3: {
+              color: '#f3f4f6',
+            },
+            h4: {
+              color: '#f3f4f6',
+            },
+            strong: {
+              color: '#f3f4f6',
+            },
+            code: {
+              color: '#e5e7eb',
+              backgroundColor: '#374151',
+              borderRadius: '0.375rem',
+              padding: '0.25rem 0.375rem',
+            },
+            pre: {
+              backgroundColor: '#1f2937',
+              color: '#e5e7eb',
+              borderRadius: '0.5rem',
+            },
+            blockquote: {
+              color: '#d1d5db',
+              borderLeftColor: '#4b5563',
+              backgroundColor: '#1f2937',
+              borderRadius: '0.375rem',
+              padding: '1rem',
+            },
+            ul: {
+              color: '#f3f4f6',
+            },
+            ol: {
+              color: '#f3f4f6',
+            },
+            li: {
+              color: '#f3f4f6',
+            },
           },
         },
       },
